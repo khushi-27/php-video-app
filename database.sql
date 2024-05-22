@@ -1,0 +1,9 @@
+CREATE DATABASE sample_db;
+
+CREATE TABLE videos (
+ id INT NOT NULL AUTO_INCREMENT,
+ fileName VARCHAR(128) NOT NULL,
+ size INT NOT NULL DEFAULT 0,
+ desccription VARCHAR(128),
+ PRIMARY KEY (id)
+);
